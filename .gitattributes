@@ -1,3 +1,4 @@
 *.txt text eof=lf
-*.html text eof=lf
+*.html whitespace=ignore
+
 *.jpg filter=lfs diff=lfs merge=lfs -text
